@@ -4,7 +4,7 @@
 <title>Cats!</title>
 </head>
 <body>
-<header>Because sometimes you just need a fucking break...</header>
+<header>Because sometimes you have nothing better to do...</header>
 <div id='list'>
 <?php
 	$file = "cats.txt";
