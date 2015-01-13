@@ -13,7 +13,11 @@
     $lineNumber = 1;
     foreach($lines as $line)
     {
-		echo"<li>" . $line . "</li>";
+		if ($lineNumber%2==0){
+			echo"<li style='background-color:#3a3a3a;'>" . $line . "</li>";
+		}else{
+			echo"<li>" . $line . "</li>";
+		}
 
 		$lineNumber++;
     }
